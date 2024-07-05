@@ -34,6 +34,10 @@
 
 /* Colori sfondo */
 
+.bg-bsq{
+    background-color: bisque;
+}
+
 .bg-w{
     background-color: white;
 }
@@ -62,22 +66,19 @@ header{
 
 .logo{
     width: 20%;
-    background-color: bisque;
     justify-content: flex-start;
     align-items: center;
 }
 
 .nav-links{
-    width: 60%;
-    background-color: bisque;
+    width: 60%;  
     justify-content: center;
     align-items: center;
     
 }
 
 .button{
-    width: 20%;
-    background-color: bisque;
+    width: 20%;  
     justify-content: flex-end;
     align-items: center;
 
@@ -133,4 +134,14 @@ header{
 .colonne{
     background-color: aquamarine;
     flex-basis: calc(100% / 6);
+}
+
+/* logo e bottone a piè di pagina */
+
+.register{
+    padding: var(--space);
+}
+
+.foot-end{
+    justify-content: space-between;
 }
