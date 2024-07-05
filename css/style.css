@@ -5,6 +5,10 @@
 
 /* Utilities */
 
+:root{
+    --space:20px;
+}
+
 .container{
     max-width: 1080px;
     margin: 0 auto;
@@ -23,8 +27,15 @@
 
 /* header */
 
+header{
+    background-color: pink;
+    min-height: 150px;
+}
+
+/* header top */
+
 .main-header{
-    padding: 15px 0;
+    padding: var(--space);
     min-height: 30px;
     background-color: blueviolet;
 }
@@ -52,4 +63,17 @@
     justify-content: flex-end;
     align-items: center;
 
+}
+
+/* header main topic */
+
+.secondary-header{
+    justify-content: center;
+    padding: var(--space);  
+}
+
+.main-topic{
+    flex-basis: 80%;
+    min-height: 250px;
+    background-color: darkslategrey;
 }
