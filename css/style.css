@@ -16,8 +16,11 @@
 
 .row{
     display: flex;
-    flex-direction: row;
     min-height: 50px;
+}
+
+.rev{
+    flex-direction: row-reverse;
 }
 
 .brd-bl{
@@ -25,6 +28,23 @@
 
 }
 
+.spazio{
+    padding: var(--space);
+}
+
+/* Colori sfondo */
+
+.bg-w{
+    background-color: white;
+}
+
+.bg-lgry{
+    background-color: lightgray;
+}
+
+.bg-drgry{
+    background-color: rgb(97, 97, 97);
+}
 /* header */
 
 header{
@@ -45,8 +65,6 @@ header{
     background-color: bisque;
     justify-content: flex-start;
     align-items: center;
-    
-    
 }
 
 .nav-links{
@@ -57,7 +75,7 @@ header{
     
 }
 
-.login{
+.button{
     width: 20%;
     background-color: bisque;
     justify-content: flex-end;
@@ -76,4 +94,43 @@ header{
     flex-basis: 80%;
     min-height: 250px;
     background-color: darkslategrey;
+}
+
+/* sezioni discord  */
+
+.img-disc{
+    flex-basis: 30%;
+    min-height: 350px;
+    background-color: blue;
+}
+
+.info-discord{
+    flex-basis: 70%;
+    min-height: 350px;
+    background-color: green;   
+}
+
+.tecnology{
+    flex-basis: 100%;
+    min-height: 600px;
+    background-color: violet;
+}
+
+/* link utili,social e info barra lingua */
+
+.info-credits{
+    min-height: 400px;
+    
+}
+
+/* colonne */
+
+.lang-social{
+    flex-basis: calc(100% / 3);
+    background-color: azure;
+}
+
+.colonne{
+    background-color: aquamarine;
+    flex-basis: calc(100% / 6);
 }
